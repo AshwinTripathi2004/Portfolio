@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashwini Tripathi - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f30fac2c61.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h1>Portfolio</h1>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="main" id="home">
+        <div class="mainText">
+          <h3>Hello, I'am</h3>
+          <h1>Ashwini Tripathi</h1>
+          <p>
+            A passionate computer science student, <br />
+            immersed in coding and development. I find joy in bringing ideas to
+            <br />
+            life through code, driven by continuous improvement and overcoming
+            <br />
+            challenges.
+          </p>
+          <button onclick="downloadBtn()">Download CV</button>
+        </div>
+        <img src="main.png" alt="" />
+      </div>
+
+      <div id="about">
+        <div class="head">
+          <h1>About Us</h1>
+        </div>
+        <div class="about">
+          <div class="aboutText">
+            <h1>Ashwini Tripathi</h1>
+            <p>Web Developer, computer science student and coder</p>
+            <p>
+              Greetings! I'm Ashwini Tripathi, a dedicated and enthusiastic
+              <br />
+              computer science student with a fervent passion for coding and
+              <br />
+              development. My journey in the world of technology is not just an
+              <br />
+              academic pursuit but a thrilling exploration of creativity and
+              <br />
+              problem-solving. Armed with a deep curiosity and an insatiable
+              <br />
+              desire to learn, I find joy in crafting lines of code that bring
+              <br />
+              ideas to life.
+            </p>
+          </div>
+          <img src="developer-icon-png-14.png" alt="" />
+        </div>
+      </div>
+
+      <div id="service">
+        <div class="head">
+          <h1>Working In</h1>
+        </div>
+        <div class="btns">
+          <button class="btn" id="all">All</button>
+          <!-- <button class="btn" id="ui">UI/UX Design</button> -->
+          <button class="btn" id="web">Web Development</button>
+          <button class="btn" id="mobile">Android Development</button>
+        </div>
+        <div class="service">
+          <div class="serviceCard" id="webDesign">
+            <i class="fa-solid fa-laptop"></i>
+            <h2>Web Develoment</h2>
+            <p>
+              Hello, I'm Ashwini Tripathi, a devoted web developer passionate
+              about crafting engaging and functional websites. My expertise
+              spans from front-end aesthetics to back-end intricacies, ensuring
+              high-quality user experiences through continuous learning and
+              innovation,I thrive on optimizing performance and creating
+              impactful solutions.
+            </p>
+            <button>Contact</button>
+          </div>
+          <div class="serviceCard" id="android">
+            <i class="fa-solid fa-mobile"></i>
+            <h2>Android Development</h2>
+            <p>
+              Hello, I'm Ashwini Tripathi, an Android developer passionate about
+              mobile innovation. Specializing in crafting intuitive Android
+              applications, I thrive on optimizing performance and creating
+              impactful solutions. My dynamic work involves continuous learning,
+              making technology accessible, and contributing to enjoyable mobile
+              experiences.
+            </p>
+            <button>Contact</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="work">
+        <div class="head">
+          <h1>My Work's</h1>
+        </div>
+        <div class="work">
+          <div class="workCard">
+            <img src="ecom.png" height="350" width="20" />
+            <h3>Ecommerce Website</h3>
+            <p>Ecommerce Website Using and HTML CSS javascript</p>
+            <a
+              target="_blank"
+              >Checkout</a
+            >
+          </div>
+
+          <div class="workCard">
+            <img src="caluclator.png" height="350" width="20" />
+            <h3>Besic Calculator</h3>
+            <p>Calculator Using HTML CSS javascript</p>
+            <a
+              
+              target="_blank"
+              >Checkout</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <div class="head">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="contact">
+          <input type="text" placeholder="Enter Your Name" id="name" />
+          <input type="text" placeholder="Enter Your Email" id="email" />
+          <textarea
+            name=""
+            id="msg"
+            cols="40"
+            rows="6"
+            placeholder="Enter Message..."
+          ></textarea>
+          <button id="submit">Submit</button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="icons">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-facebook"></i>
+        </div>
+        <div class="text">
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions</p>
+          <p>Disclaimer</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
